@@ -12,12 +12,11 @@ However, the output of generator is 0 to 1. So use tanh fn to scale to -1 to 1 i
 range of the discriminator
 
 * discriminator contains fc1 and fc10 as the output:
-
-'''python
+```python
 out1 = self.fc1(x)
 out10 = self.fc10(x)
 return out1, out10
-'''
+```
 
 * use 196 intermediate featmaps and train for 200 epochs (tutorial train for 500 epochs)
 
