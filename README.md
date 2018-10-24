@@ -7,11 +7,12 @@
 * For transposed conv, use torch.nn.ConvTranspose2d. Transposed conv first blow up input region by inserting 0s 
 between adjacent pixels. Then perform a conv operation
 
-* 0.5 mean and 0.5 std normalization is applied on training images. This change pixel range from 0~1 to -1~1. 
-However, the output of generator is 0~1. So use tanh fn to scale to -1~1 in order to match the input 
+* 0.5 mean and 0.5 std normalization is applied on training images. This change pixel range from 0 to 1 to -1 to 1. 
+However, the output of generator is 0 to 1. So use tanh fn to scale to -1 to 1 in order to match the input 
 range of the discriminator
 
 * discriminator contains fc1 and fc10 as the output:
+
 '''python
 out1 = self.fc1(x)
 out10 = self.fc10(x)
