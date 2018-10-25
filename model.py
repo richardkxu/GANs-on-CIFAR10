@@ -127,6 +127,8 @@ class Generator(nn.Module):
     def __init__(self):
         super(Generator, self).__init__()
         self.fc1 = nn.Linear(100, 196*4*4)
+        self.bn0 = nn.BatchNorm1d(196*4*4)
+        self.relu0 = nn.ReLU()
 
         self.conv1 = nn.ConvTranspose2d(196, 196, kernel_size=4, stride=2, padding=1)
         self.bn1 = nn.BatchNorm2d(196)
@@ -166,6 +168,8 @@ class Generator(nn.Module):
             print("input size: {}".format(x.size()))
 
         x = self.fc1(x)
+        x = self.bn0(x)
+        x = self.relu0(x)
 
         if print_size:
             print(x.size())
