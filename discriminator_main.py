@@ -1,6 +1,7 @@
 import os
 import argparse
 import time
+from datetime import datetime
 
 import torch
 import torch.nn as nn
@@ -51,7 +52,7 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle
 model =  Discriminator()
 model.to(device)
 if not args.gpu:
-    net = nn.DataParallel(model)
+    model = nn.DataParallel(model)
 
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
@@ -77,7 +78,7 @@ best_accuracy = 0.0
 
 def train(epoch, trainloader):
 
-    net.train()
+    model.train()
     train_loss = 0.0
     correct = 0
     total = 0
@@ -111,7 +112,7 @@ def train(epoch, trainloader):
 def test(epoch, testloader):
     global best_accuracy
 
-    net.eval()
+    model.eval()
     test_loss = 0
     correct = 0
     total = 0
@@ -143,7 +144,7 @@ def test(epoch, testloader):
         print("Saving ckpt at {}-th epoch.".format(epoch))
         state = {
             'epoch': epoch,
-            'state_dict': net.state_dict(),
+            'state_dict': model.state_dict(),
             'best_accuracy': best_accuracy,
             'best_loss': total_loss,
             'opt_state': optimizer.state_dict()

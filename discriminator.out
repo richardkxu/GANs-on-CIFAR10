@@ -1,0 +1,232 @@
+Using gpu: 5
+Files already downloaded and verified
+Epoch: 0 | Train Loss: 1.642 | Train Acc: 39.966% | Time: 0.00 hr 0.00 min 37.06 sec
+Epoch: 0 | Test Loss: 1.320 | Test Acc: 52.420% | Time: 0.00 hr 0.00 min 3.05 sec
+Saving ckpt at 0-th epoch.
+Epoch: 1 | Train Loss: 1.273 | Train Acc: 54.900% | Time: 0.00 hr 0.00 min 37.26 sec
+Epoch: 1 | Test Loss: 1.156 | Test Acc: 59.030% | Time: 0.00 hr 0.00 min 3.25 sec
+Saving ckpt at 1-th epoch.
+Epoch: 2 | Train Loss: 1.079 | Train Acc: 62.092% | Time: 0.00 hr 0.00 min 37.79 sec
+Epoch: 2 | Test Loss: 0.957 | Test Acc: 66.400% | Time: 0.00 hr 0.00 min 3.18 sec
+Saving ckpt at 2-th epoch.
+Epoch: 3 | Train Loss: 0.937 | Train Acc: 67.310% | Time: 0.00 hr 0.00 min 38.16 sec
+Epoch: 3 | Test Loss: 0.849 | Test Acc: 71.150% | Time: 0.00 hr 0.00 min 3.24 sec
+Saving ckpt at 3-th epoch.
+Epoch: 4 | Train Loss: 0.831 | Train Acc: 71.416% | Time: 0.00 hr 0.00 min 37.60 sec
+Epoch: 4 | Test Loss: 0.747 | Test Acc: 73.940% | Time: 0.00 hr 0.00 min 3.21 sec
+Saving ckpt at 4-th epoch.
+Epoch: 5 | Train Loss: 0.742 | Train Acc: 74.356% | Time: 0.00 hr 0.00 min 37.93 sec
+Epoch: 5 | Test Loss: 0.751 | Test Acc: 74.340% | Time: 0.00 hr 0.00 min 3.16 sec
+Saving ckpt at 5-th epoch.
+Epoch: 6 | Train Loss: 0.679 | Train Acc: 76.614% | Time: 0.00 hr 0.00 min 37.81 sec
+Epoch: 6 | Test Loss: 0.733 | Test Acc: 74.430% | Time: 0.00 hr 0.00 min 3.55 sec
+Saving ckpt at 6-th epoch.
+Epoch: 7 | Train Loss: 0.626 | Train Acc: 78.374% | Time: 0.00 hr 0.00 min 37.95 sec
+Epoch: 7 | Test Loss: 0.627 | Test Acc: 78.100% | Time: 0.00 hr 0.00 min 3.70 sec
+Saving ckpt at 7-th epoch.
+Epoch: 8 | Train Loss: 0.593 | Train Acc: 79.478% | Time: 0.00 hr 0.00 min 37.92 sec
+Epoch: 8 | Test Loss: 0.577 | Test Acc: 80.100% | Time: 0.00 hr 0.00 min 3.68 sec
+Saving ckpt at 8-th epoch.
+Epoch: 9 | Train Loss: 0.554 | Train Acc: 81.132% | Time: 0.00 hr 0.00 min 37.74 sec
+Epoch: 9 | Test Loss: 0.579 | Test Acc: 79.720% | Time: 0.00 hr 0.00 min 3.65 sec
+Epoch: 10 | Train Loss: 0.519 | Train Acc: 82.216% | Time: 0.00 hr 0.00 min 38.02 sec
+Epoch: 10 | Test Loss: 0.594 | Test Acc: 79.820% | Time: 0.00 hr 0.00 min 3.60 sec
+Epoch: 11 | Train Loss: 0.501 | Train Acc: 82.856% | Time: 0.00 hr 0.00 min 38.03 sec
+Epoch: 11 | Test Loss: 0.515 | Test Acc: 81.910% | Time: 0.00 hr 0.00 min 3.69 sec
+Saving ckpt at 11-th epoch.
+Epoch: 12 | Train Loss: 0.470 | Train Acc: 83.774% | Time: 0.00 hr 0.00 min 38.03 sec
+Epoch: 12 | Test Loss: 0.505 | Test Acc: 82.200% | Time: 0.00 hr 0.00 min 3.56 sec
+Saving ckpt at 12-th epoch.
+Epoch: 13 | Train Loss: 0.446 | Train Acc: 84.736% | Time: 0.00 hr 0.00 min 37.61 sec
+Epoch: 13 | Test Loss: 0.504 | Test Acc: 82.760% | Time: 0.00 hr 0.00 min 3.92 sec
+Saving ckpt at 13-th epoch.
+Epoch: 14 | Train Loss: 0.432 | Train Acc: 85.212% | Time: 0.00 hr 0.00 min 37.81 sec
+Epoch: 14 | Test Loss: 0.579 | Test Acc: 80.110% | Time: 0.00 hr 0.00 min 3.58 sec
+Epoch: 15 | Train Loss: 0.410 | Train Acc: 85.860% | Time: 0.00 hr 0.00 min 38.04 sec
+Epoch: 15 | Test Loss: 0.462 | Test Acc: 84.090% | Time: 0.00 hr 0.00 min 3.65 sec
+Saving ckpt at 15-th epoch.
+Epoch: 16 | Train Loss: 0.391 | Train Acc: 86.720% | Time: 0.00 hr 0.00 min 37.71 sec
+Epoch: 16 | Test Loss: 0.481 | Test Acc: 83.560% | Time: 0.00 hr 0.00 min 3.79 sec
+Epoch: 17 | Train Loss: 0.367 | Train Acc: 87.488% | Time: 0.00 hr 0.00 min 38.24 sec
+Epoch: 17 | Test Loss: 0.482 | Test Acc: 83.730% | Time: 0.00 hr 0.00 min 3.66 sec
+Epoch: 18 | Train Loss: 0.361 | Train Acc: 87.638% | Time: 0.00 hr 0.00 min 38.06 sec
+Epoch: 18 | Test Loss: 0.454 | Test Acc: 84.710% | Time: 0.00 hr 0.00 min 3.58 sec
+Saving ckpt at 18-th epoch.
+Epoch: 19 | Train Loss: 0.340 | Train Acc: 88.344% | Time: 0.00 hr 0.00 min 37.91 sec
+Epoch: 19 | Test Loss: 0.490 | Test Acc: 83.630% | Time: 0.00 hr 0.00 min 3.52 sec
+Epoch: 20 | Train Loss: 0.332 | Train Acc: 88.762% | Time: 0.00 hr 0.00 min 38.19 sec
+Epoch: 20 | Test Loss: 0.529 | Test Acc: 82.570% | Time: 0.00 hr 0.00 min 3.58 sec
+Epoch: 21 | Train Loss: 0.314 | Train Acc: 89.290% | Time: 0.00 hr 0.00 min 38.59 sec
+Epoch: 21 | Test Loss: 0.468 | Test Acc: 84.020% | Time: 0.00 hr 0.00 min 3.62 sec
+Epoch: 22 | Train Loss: 0.304 | Train Acc: 89.626% | Time: 0.00 hr 0.00 min 38.22 sec
+Epoch: 22 | Test Loss: 0.439 | Test Acc: 85.440% | Time: 0.00 hr 0.00 min 3.63 sec
+Saving ckpt at 22-th epoch.
+Epoch: 23 | Train Loss: 0.294 | Train Acc: 90.022% | Time: 0.00 hr 0.00 min 38.04 sec
+Epoch: 23 | Test Loss: 0.425 | Test Acc: 85.450% | Time: 0.00 hr 0.00 min 3.66 sec
+Saving ckpt at 23-th epoch.
+Epoch: 24 | Train Loss: 0.283 | Train Acc: 90.330% | Time: 0.00 hr 0.00 min 37.88 sec
+Epoch: 24 | Test Loss: 0.445 | Test Acc: 84.910% | Time: 0.00 hr 0.00 min 3.66 sec
+Epoch: 25 | Train Loss: 0.269 | Train Acc: 90.812% | Time: 0.00 hr 0.00 min 38.18 sec
+Epoch: 25 | Test Loss: 0.431 | Test Acc: 85.300% | Time: 0.00 hr 0.00 min 3.87 sec
+Epoch: 26 | Train Loss: 0.267 | Train Acc: 90.904% | Time: 0.00 hr 0.00 min 38.14 sec
+Epoch: 26 | Test Loss: 0.435 | Test Acc: 85.270% | Time: 0.00 hr 0.00 min 3.85 sec
+Epoch: 27 | Train Loss: 0.250 | Train Acc: 91.548% | Time: 0.00 hr 0.00 min 38.28 sec
+Epoch: 27 | Test Loss: 0.419 | Test Acc: 85.330% | Time: 0.00 hr 0.00 min 3.59 sec
+Epoch: 28 | Train Loss: 0.250 | Train Acc: 91.536% | Time: 0.00 hr 0.00 min 38.21 sec
+Epoch: 28 | Test Loss: 0.458 | Test Acc: 84.970% | Time: 0.00 hr 0.00 min 3.68 sec
+Epoch: 29 | Train Loss: 0.233 | Train Acc: 92.064% | Time: 0.00 hr 0.00 min 38.05 sec
+Epoch: 29 | Test Loss: 0.432 | Test Acc: 85.400% | Time: 0.00 hr 0.00 min 3.75 sec
+Epoch: 30 | Train Loss: 0.225 | Train Acc: 92.470% | Time: 0.00 hr 0.00 min 38.11 sec
+Epoch: 30 | Test Loss: 0.455 | Test Acc: 84.800% | Time: 0.00 hr 0.00 min 3.81 sec
+Epoch: 31 | Train Loss: 0.219 | Train Acc: 92.516% | Time: 0.00 hr 0.00 min 37.84 sec
+Epoch: 31 | Test Loss: 0.401 | Test Acc: 86.350% | Time: 0.00 hr 0.00 min 3.71 sec
+Saving ckpt at 31-th epoch.
+Epoch: 32 | Train Loss: 0.210 | Train Acc: 92.920% | Time: 0.00 hr 0.00 min 37.84 sec
+Epoch: 32 | Test Loss: 0.407 | Test Acc: 86.420% | Time: 0.00 hr 0.00 min 3.63 sec
+Saving ckpt at 32-th epoch.
+Epoch: 33 | Train Loss: 0.204 | Train Acc: 92.970% | Time: 0.00 hr 0.00 min 37.81 sec
+Epoch: 33 | Test Loss: 0.399 | Test Acc: 86.420% | Time: 0.00 hr 0.00 min 3.83 sec
+Epoch: 34 | Train Loss: 0.197 | Train Acc: 93.460% | Time: 0.00 hr 0.00 min 37.64 sec
+Epoch: 34 | Test Loss: 0.390 | Test Acc: 86.870% | Time: 0.00 hr 0.00 min 3.64 sec
+Saving ckpt at 34-th epoch.
+Epoch: 35 | Train Loss: 0.187 | Train Acc: 93.762% | Time: 0.00 hr 0.00 min 38.38 sec
+Epoch: 35 | Test Loss: 0.483 | Test Acc: 84.560% | Time: 0.00 hr 0.00 min 3.57 sec
+Epoch: 36 | Train Loss: 0.180 | Train Acc: 94.142% | Time: 0.00 hr 0.00 min 37.85 sec
+Epoch: 36 | Test Loss: 0.406 | Test Acc: 86.670% | Time: 0.00 hr 0.00 min 3.73 sec
+Epoch: 37 | Train Loss: 0.178 | Train Acc: 94.018% | Time: 0.00 hr 0.00 min 38.08 sec
+Epoch: 37 | Test Loss: 0.412 | Test Acc: 86.710% | Time: 0.00 hr 0.00 min 3.94 sec
+Epoch: 38 | Train Loss: 0.171 | Train Acc: 94.206% | Time: 0.00 hr 0.00 min 38.19 sec
+Epoch: 38 | Test Loss: 0.389 | Test Acc: 87.110% | Time: 0.00 hr 0.00 min 3.68 sec
+Saving ckpt at 38-th epoch.
+Epoch: 39 | Train Loss: 0.166 | Train Acc: 94.486% | Time: 0.00 hr 0.00 min 37.94 sec
+Epoch: 39 | Test Loss: 0.387 | Test Acc: 87.270% | Time: 0.00 hr 0.00 min 3.73 sec
+Saving ckpt at 39-th epoch.
+Epoch: 40 | Train Loss: 0.161 | Train Acc: 94.540% | Time: 0.00 hr 0.00 min 38.06 sec
+Epoch: 40 | Test Loss: 0.403 | Test Acc: 87.100% | Time: 0.00 hr 0.00 min 3.75 sec
+Epoch: 41 | Train Loss: 0.153 | Train Acc: 94.936% | Time: 0.00 hr 0.00 min 38.36 sec
+Epoch: 41 | Test Loss: 0.402 | Test Acc: 86.950% | Time: 0.00 hr 0.00 min 3.46 sec
+Epoch: 42 | Train Loss: 0.146 | Train Acc: 95.168% | Time: 0.00 hr 0.00 min 38.05 sec
+Epoch: 42 | Test Loss: 0.394 | Test Acc: 87.060% | Time: 0.00 hr 0.00 min 3.76 sec
+Epoch: 43 | Train Loss: 0.145 | Train Acc: 95.058% | Time: 0.00 hr 0.00 min 37.85 sec
+Epoch: 43 | Test Loss: 0.419 | Test Acc: 86.760% | Time: 0.00 hr 0.00 min 3.58 sec
+Epoch: 44 | Train Loss: 0.139 | Train Acc: 95.402% | Time: 0.00 hr 0.00 min 38.17 sec
+Epoch: 44 | Test Loss: 0.386 | Test Acc: 87.620% | Time: 0.00 hr 0.00 min 3.64 sec
+Saving ckpt at 44-th epoch.
+Epoch: 45 | Train Loss: 0.134 | Train Acc: 95.558% | Time: 0.00 hr 0.00 min 37.99 sec
+Epoch: 45 | Test Loss: 0.424 | Test Acc: 86.720% | Time: 0.00 hr 0.00 min 3.65 sec
+Epoch: 46 | Train Loss: 0.142 | Train Acc: 95.232% | Time: 0.00 hr 0.00 min 37.85 sec
+Epoch: 46 | Test Loss: 0.424 | Test Acc: 86.810% | Time: 0.00 hr 0.00 min 3.56 sec
+Epoch: 47 | Train Loss: 0.131 | Train Acc: 95.664% | Time: 0.00 hr 0.00 min 38.35 sec
+Epoch: 47 | Test Loss: 0.381 | Test Acc: 87.690% | Time: 0.00 hr 0.00 min 3.79 sec
+Saving ckpt at 47-th epoch.
+Epoch: 48 | Train Loss: 0.126 | Train Acc: 95.752% | Time: 0.00 hr 0.00 min 37.91 sec
+Epoch: 48 | Test Loss: 0.377 | Test Acc: 88.080% | Time: 0.00 hr 0.00 min 3.58 sec
+Saving ckpt at 48-th epoch.
+Epoch: 49 | Train Loss: 0.121 | Train Acc: 96.048% | Time: 0.00 hr 0.00 min 38.05 sec
+Epoch: 49 | Test Loss: 0.414 | Test Acc: 87.640% | Time: 0.00 hr 0.00 min 3.64 sec
+Epoch: 50 | Train Loss: 0.073 | Train Acc: 97.932% | Time: 0.00 hr 0.00 min 38.54 sec
+Epoch: 50 | Test Loss: 0.351 | Test Acc: 89.140% | Time: 0.00 hr 0.00 min 3.74 sec
+Saving ckpt at 50-th epoch.
+Epoch: 51 | Train Loss: 0.061 | Train Acc: 98.314% | Time: 0.00 hr 0.00 min 37.59 sec
+Epoch: 51 | Test Loss: 0.350 | Test Acc: 89.220% | Time: 0.00 hr 0.00 min 3.61 sec
+Saving ckpt at 51-th epoch.
+Epoch: 52 | Train Loss: 0.057 | Train Acc: 98.488% | Time: 0.00 hr 0.00 min 37.67 sec
+Epoch: 52 | Test Loss: 0.350 | Test Acc: 89.170% | Time: 0.00 hr 0.00 min 3.35 sec
+Epoch: 53 | Train Loss: 0.055 | Train Acc: 98.600% | Time: 0.00 hr 0.00 min 37.98 sec
+Epoch: 53 | Test Loss: 0.344 | Test Acc: 89.520% | Time: 0.00 hr 0.00 min 3.52 sec
+Saving ckpt at 53-th epoch.
+Epoch: 54 | Train Loss: 0.051 | Train Acc: 98.704% | Time: 0.00 hr 0.00 min 37.96 sec
+Epoch: 54 | Test Loss: 0.350 | Test Acc: 89.310% | Time: 0.00 hr 0.00 min 3.75 sec
+Epoch: 55 | Train Loss: 0.050 | Train Acc: 98.656% | Time: 0.00 hr 0.00 min 37.87 sec
+Epoch: 55 | Test Loss: 0.345 | Test Acc: 89.420% | Time: 0.00 hr 0.00 min 3.71 sec
+Epoch: 56 | Train Loss: 0.049 | Train Acc: 98.768% | Time: 0.00 hr 0.00 min 38.08 sec
+Epoch: 56 | Test Loss: 0.353 | Test Acc: 89.300% | Time: 0.00 hr 0.00 min 3.30 sec
+Epoch: 57 | Train Loss: 0.048 | Train Acc: 98.744% | Time: 0.00 hr 0.00 min 38.06 sec
+Epoch: 57 | Test Loss: 0.371 | Test Acc: 88.950% | Time: 0.00 hr 0.00 min 3.60 sec
+Epoch: 58 | Train Loss: 0.048 | Train Acc: 98.824% | Time: 0.00 hr 0.00 min 37.93 sec
+Epoch: 58 | Test Loss: 0.356 | Test Acc: 89.220% | Time: 0.00 hr 0.00 min 3.73 sec
+Epoch: 59 | Train Loss: 0.047 | Train Acc: 98.860% | Time: 0.00 hr 0.00 min 38.26 sec
+Epoch: 59 | Test Loss: 0.350 | Test Acc: 89.550% | Time: 0.00 hr 0.00 min 3.63 sec
+Saving ckpt at 59-th epoch.
+Epoch: 60 | Train Loss: 0.046 | Train Acc: 98.852% | Time: 0.00 hr 0.00 min 38.14 sec
+Epoch: 60 | Test Loss: 0.346 | Test Acc: 89.520% | Time: 0.00 hr 0.00 min 3.45 sec
+Epoch: 61 | Train Loss: 0.045 | Train Acc: 98.904% | Time: 0.00 hr 0.00 min 38.14 sec
+Epoch: 61 | Test Loss: 0.352 | Test Acc: 89.580% | Time: 0.00 hr 0.00 min 3.39 sec
+Saving ckpt at 61-th epoch.
+Epoch: 62 | Train Loss: 0.044 | Train Acc: 98.888% | Time: 0.00 hr 0.00 min 37.96 sec
+Epoch: 62 | Test Loss: 0.351 | Test Acc: 89.200% | Time: 0.00 hr 0.00 min 3.56 sec
+Epoch: 63 | Train Loss: 0.041 | Train Acc: 98.982% | Time: 0.00 hr 0.00 min 37.97 sec
+Epoch: 63 | Test Loss: 0.360 | Test Acc: 89.310% | Time: 0.00 hr 0.00 min 3.51 sec
+Epoch: 64 | Train Loss: 0.043 | Train Acc: 98.868% | Time: 0.00 hr 0.00 min 38.12 sec
+Epoch: 64 | Test Loss: 0.349 | Test Acc: 89.530% | Time: 0.00 hr 0.00 min 3.59 sec
+Epoch: 65 | Train Loss: 0.040 | Train Acc: 99.082% | Time: 0.00 hr 0.00 min 37.36 sec
+Epoch: 65 | Test Loss: 0.358 | Test Acc: 89.170% | Time: 0.00 hr 0.00 min 3.62 sec
+Epoch: 66 | Train Loss: 0.041 | Train Acc: 98.972% | Time: 0.00 hr 0.00 min 38.57 sec
+Epoch: 66 | Test Loss: 0.355 | Test Acc: 89.480% | Time: 0.00 hr 0.00 min 3.45 sec
+Epoch: 67 | Train Loss: 0.039 | Train Acc: 99.048% | Time: 0.00 hr 0.00 min 37.74 sec
+Epoch: 67 | Test Loss: 0.364 | Test Acc: 89.150% | Time: 0.00 hr 0.00 min 3.49 sec
+Epoch: 68 | Train Loss: 0.037 | Train Acc: 99.072% | Time: 0.00 hr 0.00 min 37.79 sec
+Epoch: 68 | Test Loss: 0.357 | Test Acc: 89.520% | Time: 0.00 hr 0.00 min 3.59 sec
+Epoch: 69 | Train Loss: 0.036 | Train Acc: 99.168% | Time: 0.00 hr 0.00 min 38.05 sec
+Epoch: 69 | Test Loss: 0.359 | Test Acc: 89.220% | Time: 0.00 hr 0.00 min 3.63 sec
+Epoch: 70 | Train Loss: 0.036 | Train Acc: 99.126% | Time: 0.00 hr 0.00 min 38.70 sec
+Epoch: 70 | Test Loss: 0.355 | Test Acc: 89.490% | Time: 0.00 hr 0.00 min 3.78 sec
+Epoch: 71 | Train Loss: 0.036 | Train Acc: 99.132% | Time: 0.00 hr 0.00 min 37.81 sec
+Epoch: 71 | Test Loss: 0.356 | Test Acc: 89.630% | Time: 0.00 hr 0.00 min 3.59 sec
+Saving ckpt at 71-th epoch.
+Epoch: 72 | Train Loss: 0.036 | Train Acc: 99.136% | Time: 0.00 hr 0.00 min 37.73 sec
+Epoch: 72 | Test Loss: 0.360 | Test Acc: 89.400% | Time: 0.00 hr 0.00 min 3.60 sec
+Epoch: 73 | Train Loss: 0.035 | Train Acc: 99.158% | Time: 0.00 hr 0.00 min 38.06 sec
+Epoch: 73 | Test Loss: 0.363 | Test Acc: 89.330% | Time: 0.00 hr 0.00 min 3.41 sec
+Epoch: 74 | Train Loss: 0.035 | Train Acc: 99.166% | Time: 0.00 hr 0.00 min 37.73 sec
+Epoch: 74 | Test Loss: 0.364 | Test Acc: 89.430% | Time: 0.00 hr 0.00 min 3.55 sec
+Epoch: 75 | Train Loss: 0.032 | Train Acc: 99.268% | Time: 0.00 hr 0.00 min 37.79 sec
+Epoch: 75 | Test Loss: 0.359 | Test Acc: 89.510% | Time: 0.00 hr 0.00 min 3.49 sec
+Epoch: 76 | Train Loss: 0.031 | Train Acc: 99.270% | Time: 0.00 hr 0.00 min 38.31 sec
+Epoch: 76 | Test Loss: 0.360 | Test Acc: 89.480% | Time: 0.00 hr 0.00 min 3.33 sec
+Epoch: 77 | Train Loss: 0.031 | Train Acc: 99.322% | Time: 0.00 hr 0.00 min 38.10 sec
+Epoch: 77 | Test Loss: 0.359 | Test Acc: 89.470% | Time: 0.00 hr 0.00 min 3.20 sec
+Epoch: 78 | Train Loss: 0.030 | Train Acc: 99.334% | Time: 0.00 hr 0.00 min 38.06 sec
+Epoch: 78 | Test Loss: 0.359 | Test Acc: 89.470% | Time: 0.00 hr 0.00 min 3.66 sec
+Epoch: 79 | Train Loss: 0.030 | Train Acc: 99.314% | Time: 0.00 hr 0.00 min 38.20 sec
+Epoch: 79 | Test Loss: 0.358 | Test Acc: 89.460% | Time: 0.00 hr 0.00 min 3.61 sec
+Epoch: 80 | Train Loss: 0.029 | Train Acc: 99.412% | Time: 0.00 hr 0.00 min 37.92 sec
+Epoch: 80 | Test Loss: 0.357 | Test Acc: 89.450% | Time: 0.00 hr 0.00 min 3.36 sec
+Epoch: 81 | Train Loss: 0.030 | Train Acc: 99.318% | Time: 0.00 hr 0.00 min 38.06 sec
+Epoch: 81 | Test Loss: 0.358 | Test Acc: 89.530% | Time: 0.00 hr 0.00 min 3.65 sec
+Epoch: 82 | Train Loss: 0.030 | Train Acc: 99.328% | Time: 0.00 hr 0.00 min 37.71 sec
+Epoch: 82 | Test Loss: 0.357 | Test Acc: 89.560% | Time: 0.00 hr 0.00 min 3.62 sec
+Epoch: 83 | Train Loss: 0.028 | Train Acc: 99.340% | Time: 0.00 hr 0.00 min 38.25 sec
+Epoch: 83 | Test Loss: 0.356 | Test Acc: 89.500% | Time: 0.00 hr 0.00 min 3.83 sec
+Epoch: 84 | Train Loss: 0.029 | Train Acc: 99.352% | Time: 0.00 hr 0.00 min 38.10 sec
+Epoch: 84 | Test Loss: 0.360 | Test Acc: 89.480% | Time: 0.00 hr 0.00 min 3.67 sec
+Epoch: 85 | Train Loss: 0.028 | Train Acc: 99.406% | Time: 0.00 hr 0.00 min 38.01 sec
+Epoch: 85 | Test Loss: 0.357 | Test Acc: 89.480% | Time: 0.00 hr 0.00 min 3.65 sec
+Epoch: 86 | Train Loss: 0.029 | Train Acc: 99.344% | Time: 0.00 hr 0.00 min 38.02 sec
+Epoch: 86 | Test Loss: 0.359 | Test Acc: 89.610% | Time: 0.00 hr 0.00 min 3.80 sec
+Epoch: 87 | Train Loss: 0.029 | Train Acc: 99.344% | Time: 0.00 hr 0.00 min 38.06 sec
+Epoch: 87 | Test Loss: 0.357 | Test Acc: 89.550% | Time: 0.00 hr 0.00 min 3.69 sec
+Epoch: 88 | Train Loss: 0.028 | Train Acc: 99.374% | Time: 0.00 hr 0.00 min 38.20 sec
+Epoch: 88 | Test Loss: 0.360 | Test Acc: 89.450% | Time: 0.00 hr 0.00 min 3.45 sec
+Epoch: 89 | Train Loss: 0.029 | Train Acc: 99.390% | Time: 0.00 hr 0.00 min 38.09 sec
+Epoch: 89 | Test Loss: 0.358 | Test Acc: 89.570% | Time: 0.00 hr 0.00 min 3.72 sec
+Epoch: 90 | Train Loss: 0.029 | Train Acc: 99.346% | Time: 0.00 hr 0.00 min 38.10 sec
+Epoch: 90 | Test Loss: 0.359 | Test Acc: 89.510% | Time: 0.00 hr 0.00 min 3.58 sec
+Epoch: 91 | Train Loss: 0.028 | Train Acc: 99.372% | Time: 0.00 hr 0.00 min 38.08 sec
+Epoch: 91 | Test Loss: 0.360 | Test Acc: 89.540% | Time: 0.00 hr 0.00 min 3.55 sec
+Epoch: 92 | Train Loss: 0.028 | Train Acc: 99.412% | Time: 0.00 hr 0.00 min 37.43 sec
+Epoch: 92 | Test Loss: 0.357 | Test Acc: 89.600% | Time: 0.00 hr 0.00 min 3.28 sec
+Epoch: 93 | Train Loss: 0.029 | Train Acc: 99.356% | Time: 0.00 hr 0.00 min 37.28 sec
+Epoch: 93 | Test Loss: 0.360 | Test Acc: 89.510% | Time: 0.00 hr 0.00 min 3.01 sec
+Epoch: 94 | Train Loss: 0.029 | Train Acc: 99.344% | Time: 0.00 hr 0.00 min 37.97 sec
+Epoch: 94 | Test Loss: 0.359 | Test Acc: 89.540% | Time: 0.00 hr 0.00 min 3.38 sec
+Epoch: 95 | Train Loss: 0.029 | Train Acc: 99.346% | Time: 0.00 hr 0.00 min 37.47 sec
+Epoch: 95 | Test Loss: 0.359 | Test Acc: 89.550% | Time: 0.00 hr 0.00 min 3.44 sec
+Epoch: 96 | Train Loss: 0.029 | Train Acc: 99.362% | Time: 0.00 hr 0.00 min 37.36 sec
+Epoch: 96 | Test Loss: 0.360 | Test Acc: 89.570% | Time: 0.00 hr 0.00 min 2.87 sec
+Epoch: 97 | Train Loss: 0.028 | Train Acc: 99.368% | Time: 0.00 hr 0.00 min 36.25 sec
+Epoch: 97 | Test Loss: 0.360 | Test Acc: 89.500% | Time: 0.00 hr 0.00 min 2.99 sec
+Epoch: 98 | Train Loss: 0.028 | Train Acc: 99.368% | Time: 0.00 hr 0.00 min 36.28 sec
+Epoch: 98 | Test Loss: 0.360 | Test Acc: 89.570% | Time: 0.00 hr 0.00 min 2.88 sec
+Epoch: 99 | Train Loss: 0.028 | Train Acc: 99.362% | Time: 0.00 hr 0.00 min 36.30 sec
+Epoch: 99 | Test Loss: 0.359 | Test Acc: 89.560% | Time: 0.00 hr 0.00 min 2.90 sec
