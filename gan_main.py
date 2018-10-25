@@ -264,8 +264,8 @@ for epoch in range(n_epoch):
     aD.train()
 
     time1 = time.time()
-    train(epoch, trainloader)
-    accuracy_test = test(epoch, testloader)
+    train(trainloader)
+    accuracy_test = test(testloader)
     time2 = time.time()
 
     sec = time2-time1
