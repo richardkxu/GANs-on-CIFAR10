@@ -1,3 +1,4 @@
+import os
 import numpy as np
 
 import torch
@@ -11,6 +12,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
+os.environ["CUDA_VISIBLE_DEVICES"] = 1
 
 # This function is used to plot a 10 by 10 grid of images scaled between 0 and 1
 def plot(samples):
