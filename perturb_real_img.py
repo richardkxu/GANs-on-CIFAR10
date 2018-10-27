@@ -12,7 +12,9 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
-os.environ["CUDA_VISIBLE_DEVICES"] = 1
+from model import Discriminator
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # This function is used to plot a 10 by 10 grid of images scaled between 0 and 1
 def plot(samples):
@@ -41,7 +43,9 @@ testset = torchvision.datasets.CIFAR10(root='./', train=False, download=False, t
 testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle=False, num_workers=8)
 testloader = enumerate(testloader)
 
-model = torch.load('./checkpoint/discriminator-run-20181025021504/discriminator.model')
+model =  Discriminator()
+checkpoint = torch.load('./checkpoint/discriminator-run-20181025021504/discriminator.model')
+model.load_state_dict(checkpoint['state_dict'])
 model.cuda()
 model.eval()
 
