@@ -51,9 +51,7 @@ model.cuda()
 model.eval()
 
 # discriminator trained with the generator
-model2 = Discriminator()
-checkpoint2 = torch.load('./checkpoint/gan-run-20181025172252/discriminator.model')
-model2.load_state_dict(checkpoint2['state_dict'])
+model2 = torch.load('./checkpoint/gan-run-20181025172252/discriminator.model')
 model2.cuda()
 model2.eval()
 ############## Perturb Real Images ##############
