@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-
+import torch.nn.functional as F
 
 class Discriminator(nn.Module):
 
@@ -56,6 +56,10 @@ class Discriminator(nn.Module):
         x = self.conv2(x)
         x = self.ln2(x)
         x = self.lrelu2(x)
+
+        h = F.max_pool2d(x, 4, 4)
+        h = h.view(-1, 196*4*4)
+        return h
 
         if print_size:
             print(x.size())
