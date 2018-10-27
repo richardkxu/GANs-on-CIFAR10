@@ -12,7 +12,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
-from model import Discriminator
+from model import Discriminator, Generator
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
@@ -43,11 +43,20 @@ testset = torchvision.datasets.CIFAR10(root='./', train=False, download=False, t
 testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle=False, num_workers=8)
 testloader = enumerate(testloader)
 
+# discriminator trained without the generator
 model =  Discriminator()
 checkpoint = torch.load('./checkpoint/discriminator-run-20181025021504/discriminator.model')
 model.load_state_dict(checkpoint['state_dict'])
 model.cuda()
 model.eval()
+
+# discriminator trained with the generator
+model2 = Discriminator()
+checkpoint2 = torch.load('./checkpoint/gan-run-20181025172252/discriminator.model')
+model2.load_state_dict(checkpoint2['state_dict'])
+model2.cuda()
+model2.eval()
+############## Perturb Real Images ##############
 
 # Grab a sample batch from the test dataset
 batch_idx, (X_batch, Y_batch) = testloader.__next__()
@@ -114,5 +123,68 @@ samples = samples.transpose(0,2,3,1)
 
 fig = plot(samples[0:100])
 plt.savefig('visualization/jittered_images.png', bbox_inches='tight')
+plt.close(fig)
+
+
+############## Synthetic Images Maximizing Classification Output ##############
+X = X_batch.mean(dim=0)
+X = X.repeat(10,1,1,1)
+
+Y = torch.arange(10).type(torch.int64)
+Y = Variable(Y).cuda()
+
+lr = 0.1
+weight_decay = 0.001
+
+for i in range(200):
+    _, output = model(X)
+
+    loss = -output[torch.arange(10).type(torch.int64),torch.arange(10).type(torch.int64)]
+    gradients = torch.autograd.grad(outputs=loss, inputs=X,
+                              grad_outputs=torch.ones(loss.size()).cuda(),
+                              create_graph=True, retain_graph=False, only_inputs=True)[0]
+
+    prediction = output.data.max(1)[1] # first column has actual prob.
+    accuracy = ( float( prediction.eq(Y.data).sum() ) /float(10.0))*100.0
+    print(i,accuracy,-loss)
+
+    X = X - lr*gradients.data - weight_decay*X.data*torch.abs(X.data)
+    X[X>1.0] = 1.0
+    X[X<-1.0] = -1.0
+
+## save new images
+samples = X.data.cpu().numpy()
+samples += 1.0
+samples /= 2.0
+samples = samples.transpose(0,2,3,1)
+
+fig = plot(samples)
+plt.savefig('visualization/discri_max_class.png', bbox_inches='tight')
+plt.close(fig)
+
+for i in range(200):
+    _, output = model2(X)
+
+    loss = -output[torch.arange(10).type(torch.int64),torch.arange(10).type(torch.int64)]
+    gradients = torch.autograd.grad(outputs=loss, inputs=X,
+                              grad_outputs=torch.ones(loss.size()).cuda(),
+                              create_graph=True, retain_graph=False, only_inputs=True)[0]
+
+    prediction = output.data.max(1)[1] # first column has actual prob.
+    accuracy = ( float( prediction.eq(Y.data).sum() ) /float(10.0))*100.0
+    print(i,accuracy,-loss)
+
+    X = X - lr*gradients.data - weight_decay*X.data*torch.abs(X.data)
+    X[X>1.0] = 1.0
+    X[X<-1.0] = -1.0
+
+## save new images
+samples = X.data.cpu().numpy()
+samples += 1.0
+samples /= 2.0
+samples = samples.transpose(0,2,3,1)
+
+fig = plot(samples)
+plt.savefig('visualization/gan_max_class.png', bbox_inches='tight')
 plt.close(fig)
 
