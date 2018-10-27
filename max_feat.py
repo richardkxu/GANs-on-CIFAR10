@@ -44,12 +44,12 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle
 testloader = enumerate(testloader)
 
 # discriminator trained without the generator
+oldmodel = torch.load('./checkpoint/gan-run-20181025172252/discriminator.model')
+state_dict = oldmodel.state_dict()
 model =  Discriminator()
-checkpoint = torch.load('./checkpoint/discriminator-run-20181025021504/discriminator.model')
-model.load_state_dict(checkpoint['state_dict'])
+model.load_state_dict(state_dict)
 model.cuda()
 model.eval()
-
 
 ############## Perturb Real Images ##############
 
@@ -89,7 +89,7 @@ samples /= 2.0
 samples = samples.transpose(0,2,3,1)
 
 fig = plot(samples[0:100])
-plt.savefig('visualization/discri_max_features_layer2.png', bbox_inches='tight')
+plt.savefig('visualization/gan_max_features_layer2.png', bbox_inches='tight')
 plt.close(fig)
 
 
