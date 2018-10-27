@@ -50,7 +50,7 @@ model.cuda()
 model.eval()
 
 # Grab a sample batch from the test dataset
-batch_idx, (X_batch, Y_batch) = testloader.next()
+batch_idx, (X_batch, Y_batch) = testloader.__next__()
 X_batch = Variable(X_batch,requires_grad=True).cuda()
 
 # Create an alternative label which is simply +1 to the true label
