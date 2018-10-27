@@ -12,7 +12,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
-from model import Discriminator, Generator
+from model import Discriminator
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
@@ -54,6 +54,8 @@ model.eval()
 model2 = torch.load('./checkpoint/gan-run-20181025172252/discriminator.model')
 model2.cuda()
 model2.eval()
+
+
 ############## Perturb Real Images ##############
 
 # Grab a sample batch from the test dataset

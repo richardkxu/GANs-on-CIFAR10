@@ -154,6 +154,7 @@ def test(epoch, testloader):
 
 # driver code
 for epoch in range(n_epoch):
+    # adjust learning rate
     if epoch == 50:
         for param_group in optimizer.param_groups:
             param_group['lr'] = learning_rate / 10.0

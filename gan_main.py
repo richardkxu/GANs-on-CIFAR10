@@ -288,10 +288,10 @@ for epoch in range(n_epoch):
     plt.close(fig)
 
     if (((epoch + 1) % 50) == 0):
-        torch.save(aG, os.path.join(out_dir, 'tempG_' + str(epoch) + '.model'))
-        torch.save(aD, os.path.join(out_dir, 'tempD_' + str(epoch) + '.model'))
+        torch.save(aG, os.path.join(ckpt_dir, 'tempG_' + str(epoch) + '.model'))
+        torch.save(aD, os.path.join(ckpt_dir, 'tempD_' + str(epoch) + '.model'))
 
 # save final model
-torch.save(aG, os.path.join(out_dir, 'generator.model'))
-torch.save(aD, os.path.join(out_dir, 'discriminator.model'))
+torch.save(aG, os.path.join(ckpt_dir, 'generator.model'))
+torch.save(aD, os.path.join(ckpt_dir, 'discriminator.model'))
 

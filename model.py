@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+
 class Discriminator(nn.Module):
 
     def __init__(self):
@@ -57,9 +58,10 @@ class Discriminator(nn.Module):
         x = self.ln2(x)
         x = self.lrelu2(x)
 
-        h = F.max_pool2d(x, 4, 4)
-        h = h.view(-1, 196*4*4)
-        return h
+        # the following lines are for extracting max feat from conv2 layer
+        # h = F.max_pool2d(x, 4, 4)
+        # h = h.view(-1, 196*4*4)
+        # return h
 
         if print_size:
             print(x.size())
