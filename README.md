@@ -1,5 +1,19 @@
 # Generative Adversarial Network
 
+## Goal: 
+* Train a generator-discriminator pair on CIFAR10 using techniques from ACGAN and Wasserstein GANs
+* Compare the performance of GAN with a baseline ResNet module trained on CIFAR10
+* Create synthetic images maximizing class output scores or a particular features to understand how CNN works
+
+## Results Visualization
+* Real Images:
+![](./visualization/real_images.png)
+* Gradients:
+![](./visualization/gradient_image.png)
+* Perturbed Images:
+![](./visualization/jittered_images.png)
+
+## Components
 * Utilize techniques from ACGAN and Wasserstein GANs
 
 * BN and ReLU are applied after transposed conv as well as conv in generator
